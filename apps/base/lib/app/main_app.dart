@@ -15,12 +15,7 @@ class MainApp extends StatelessWidget {
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
       themeMode: ThemeMode.system,
-      localizationsDelegates: [
-        ...AppLocalizations.localizationsDelegates,
-
-        /// Module L10n delegate injection
-        ...TravelLocalizations.localizationsDelegates,
-      ],
+      localizationsDelegates: [...AppLocalizations.localizationsDelegates],
       supportedLocales: AppLocalizations.supportedLocales,
       locale: const Locale('id_ID'),
       routerConfig: AppRouter().router,

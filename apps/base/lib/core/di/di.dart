@@ -1,6 +1,5 @@
 import 'package:get_it/get_it.dart';
 
-import '../../modules/travel/travel_di.dart';
 import 'core_di.dart';
 import 'external_di.dart';
 
@@ -12,5 +11,4 @@ Future<void> initDI() async {
   await sl.allReady();
 
   // Modules DI
-  TravelDi.register();
 }

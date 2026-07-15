@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../core/pages/not_found_page.dart';
-import '../modules/travel/travel_route.dart';
 import 'dashboard/dashboard_route.dart';
 import 'startup.dart';
 
@@ -24,7 +23,6 @@ class AppRouter {
       _mainRoute,
       DashboardRoute.base,
       // ...inject here
-      TravelRoute.base,
     ],
   );
 

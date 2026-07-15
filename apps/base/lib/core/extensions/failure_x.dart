@@ -21,10 +21,6 @@ extension FailureX on Failure {
 
     // Module Failures
 
-    if (this is TravelFailure) {
-      return (this as TravelFailure).localize(context);
-    }
-
     return l10n.unknownError;
   }
 }
