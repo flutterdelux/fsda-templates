@@ -1,31 +1,31 @@
 package_rename_config:
   android:
-    app_name: Wikuy
-    package_name: com.fdelux.wikuy
-    override_old_package: com.example.wikuy
+    app_name: FSDA Base
+    package_name: com.fdelux.fsdabase
+    override_old_package: com.example.fsdabase
     lang: kotlin
 
   ios:
-    app_name: Wikuy
-    bundle_name: wikuy
-    bundle_id: com.fdelux.wikuy
+    app_name: FSDA Base
+    bundle_name: fsdabase
+    bundle_id: com.fdelux.fsdabase
 
   web:
-    app_name: Wikuy
-    description: Wikuy
+    app_name: FSDA Base
+    description: FSDA Base
 
   linux:
-    app_name: Wikuy
-    package_name: com.fdelux.wikuy
-    exe_name: wikuy-linux-x64
+    app_name: FSDA Base
+    package_name: com.fdelux.fsdabase
+    exe_name: fsdabase-linux-x64
 
   windows:
-    app_name: Wikuy
+    app_name: FSDA Base
     organization: FDelux
     copyright_notice: Copyright ©️ 2026 FDelux. All rights reserved.
-    exe_name: wikuy-win32
+    exe_name: fsdabase-win32
 
   macos:
-    app_name: Wikuy
-    bundle_id: com.fdelux.wikuy
+    app_name: FSDA Base
+    bundle_id: com.fdelux.fsdabase
     copyright_notice: Copyright ©️ 2026 FDelux. All rights reserved.

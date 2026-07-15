@@ -7,16 +7,8 @@ environment:
   sdk: ">=3.10.7 <4.0.0"
 
 dependencies:
-  travel:
-    path: ../../modules/travel
   flutter:
     sdk: flutter
-  app_core:
-    path: ../../packages/app_core
-  app_l10n:
-    path: ../../packages/app_l10n
-  app_ui:
-    path: ../../packages/app_ui
   logging: ^1.3.0
   flutter_bloc: ^9.1.1
   get_it: ^9.2.1
@@ -24,11 +16,6 @@ dependencies:
   collection: ^1.19.1
   intl: ^0.20.2
 
-  infra_http:
-    path: ../../packages/infra_http
-  infra_logging:
-    path: ../../packages/infra_logging
-  http: ^1.6.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -40,4 +27,3 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
-
