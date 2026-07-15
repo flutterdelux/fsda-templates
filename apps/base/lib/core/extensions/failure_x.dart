@@ -1,7 +1,6 @@
 import 'package:app_core/app_core.dart';
 import 'package:app_l10n/app_l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:travel/travel.dart';
 
 extension FailureX on Failure {
   String localizeAny(BuildContext context) {
