@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "@failureTravelNotFound": {
+    "description": "========================= Failure ========================="
+  },
+  "failureTravelNotFound": "Travel not found"
+}

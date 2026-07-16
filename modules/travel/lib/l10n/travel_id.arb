@@ -1,0 +1,7 @@
+{
+  "@@locale": "id",
+  "@failureTravelNotFound": {
+    "description": "========================= Failure ========================="
+  },
+  "failureTravelNotFound": "Travel tidak ditemukan"
+}
